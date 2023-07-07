@@ -14,6 +14,7 @@
 		439250112A586965003FD963 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439250102A586965003FD963 /* TestTests.swift */; };
 		4392501B2A586965003FD963 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392501A2A586965003FD963 /* TestUITests.swift */; };
 		4392501D2A586965003FD963 /* TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392501C2A586965003FD963 /* TestUITestsLaunchTests.swift */; };
+		43BC4E572A586BFE00E2DD47 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC4E562A586BFE00E2DD47 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		439250162A586965003FD963 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4392501A2A586965003FD963 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		4392501C2A586965003FD963 /* TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43BC4E562A586BFE00E2DD47 /* SnapshotHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				4392501A2A586965003FD963 /* TestUITests.swift */,
 				4392501C2A586965003FD963 /* TestUITestsLaunchTests.swift */,
+				43BC4E562A586BFE00E2DD47 /* SnapshotHelper.swift */,
 			);
 			path = TestUITests;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				4392501D2A586965003FD963 /* TestUITestsLaunchTests.swift in Sources */,
 				4392501B2A586965003FD963 /* TestUITests.swift in Sources */,
+				43BC4E572A586BFE00E2DD47 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
